@@ -18,7 +18,7 @@ export class WeatherAPIService {
 
   constructor(private http: HttpClient) {
     this.apiURL = 'https://api.openweathermap.org/data/2.5/weather?';
-    this.apiKey = 'da44c0892d80b9358b7e06e9b2e6499a';
+    this.apiKey = 'YOUR_API_KEY';
   }
 
   fetchWeather(inputCity: string) {
